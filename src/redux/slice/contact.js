@@ -22,7 +22,7 @@ state.contact = {...state.contact, ...data}
 }
     }
 });
-export const {reducer}=slice;
+export const {reducer} =slice;
 
 export const getContacts =()=>async(dispatch)=>{
     try {
@@ -63,3 +63,4 @@ export const updateContact = (data,id)=> async (dispatch) =>{
     return false
     
 }
+

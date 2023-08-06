@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Contact from './src/contact/Contact'
+import Contact from '../src/contact/Contact'
 import { useDispatch } from 'react-redux';
-import { getContacts } from './src/redux/slice/contact';
+import { getContacts } from '../src/redux/slice/contact';
 import { useEffect } from 'react';
 
 export default function Home() {

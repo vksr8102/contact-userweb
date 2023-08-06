@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getContacts, updateContact } from '../src/redux/slice/contact';
+import { getContacts, updateContact } from '../../src/redux/slice/contact';
 const initialValues = {
   email: "",
   name: "",
